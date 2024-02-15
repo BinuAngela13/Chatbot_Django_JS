@@ -1,0 +1,24 @@
+.icon {
+    width: 150px;
+    height: 150px;
+    bottom: 10%;
+    margin: 20px;
+    display: flex;
+    border: 1px solid seagreen;
+    border-radius: 15%;
+    position: fixed;
+    right: 20px;
+
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes floating {
+    50% {transform: translateY(40%);}
+}
+
+.icon:hover{
+    cursor: pointer;
+}

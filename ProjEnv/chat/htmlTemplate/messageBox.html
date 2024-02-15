@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Chatbot</title>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <link href="messageBox.css" type="text/css" rel="stylesheet">
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+    <script src="//unpkg.com/string-similarity/umd/string-similarity.min.js"></script>
+    <script src="//unpkg.com/string-similarity@4.0.4/umd/string-similarity.min.js"></script>
+</head>
+<body>
+    <div class="home" >
+        <div class="botContainer">
+            <div class="top">
+                <img class="icon" src="icon.png">
+                <span class="botName">CHAT BOT</span>
+                <a href="botIcon.html"><button class="top-close" id="top-close" >x</button></a>
+            </div>
+
+            <ul class="content" id="content">
+                <li class="chat incoming" >
+                        <img src="icon.png" class="incomingIcon">
+                        <span>Welcome to 'CHATBOT'. I'm here to help you!</span>
+                </li>
+           </ul>
+      
+            <div class="bottom">
+                <div class="b2">
+                    <input placeholder="Ask question" class="inputs" id="inputs" name="inputs" required></input>
+                    <button id="send"  class="send" type="submit">
+                        <img class="sendImg" src="https://th.bing.com/th?id=OIP.N0ZAL5RZp8-j1wlr_VuVjQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="botIcon.html">
+        <button class="bottom-close" id="bottom-close">x</button>
+    </a>
+
+    <script type="text/javascript" src="messageBox.js"></script>
+
+</body>
+</html>

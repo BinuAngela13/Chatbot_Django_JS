@@ -1,0 +1,47 @@
+{"intents": [
+    {"question": "hi", "answer": "Hello, How are you"}, 
+    {"question": "Fine", "answer": "Good to know"}, 
+    {"question": "your purpose", "answer": "I'm a general purpose bot"}, 
+    {"question": "what is python", "answer": "Python is a high-level, general-purpose, and interpreted programming language"}, 
+    {"question": "what is your name", "answer": "My name is 'COOKIE'"}, 
+    {
+  "question" : "What is Data Science",
+  "answer" : "Data Science is a field of computer science that explicitly deals with turning data into information and extracting meaningful insights from it.The reason why Data Science is so popular is that the kind of insights it allows us to draw from the available data has led to some major innovations in several products and companies."
+  }, 
+  {
+  "question" : "What is Supervised Learning",
+  "answer" : "Supervised learning is a machine learning approach in which an algorithm learns from labeled training data to make predictions or classify new, unseen data. "
+  }, 
+  {
+  "question" : " What is Unsupervised Learning",
+  "answer" : "Unsupervised learning is a machine learning approach wherein an algorithm uncovers patterns and structures within unlabeled data, operating without explicit guidance or predetermined output labels."
+  }, 
+  {
+  "question" : "What is  Linear Regression",
+  "answer" : "Linear regression helps in understanding the linear relationship between the dependent and the independent variables. Linear regression is a supervised learning algorithm, which helps in finding the linear relationship between two variables. "
+  }, 
+  {
+  "question" : "What is Logistic Regression",
+  "answer" : "Logistic regression is a classification algorithm that can be used when the dependent variable is binary."
+  }, 
+  {
+  "question" : "What is Decision Tree",
+  "answer" : "A decision tree is a supervised learning algorithm that is used for both classification and regression. Hence, in this case, the dependent variable can be both a numerical value and a categorical value."
+  }, 
+  {
+  "question" : "what is k cluster",
+  "answer" : "The term 'k-cluster' typically refers to a concept in cluster analysis, which is a technique used in data analysis and machine learning. In cluster analysis, the goal is to group similar data points together based on certain features or characteristics. These groups of similar data points are called clusters."
+  }, 
+  {
+  "question" : "What is q learning",
+  "answer" : "Q-learning is a reinforcement learning technique used in machine learning to enable an agent to learn how to behave in an environment by taking actions to maximize a cumulative reward."
+  }, 
+  {
+  "question" : "what is numpy",
+  "answer" : "NumPy is a powerful numerical computing library in Python that provides support for large, multi-dimensional arrays and matrices, along with a collection of high-level mathematical functions to operate on these arrays."
+  }, 
+  {
+  "question" : "what is pandas",
+  "answer" : "Pandas is an open-source data manipulation and analysis library for Python. It provides data structures for efficiently handling large datasets and tools for cleaning, exploring, and analyzing data."
+  }
+  ]}

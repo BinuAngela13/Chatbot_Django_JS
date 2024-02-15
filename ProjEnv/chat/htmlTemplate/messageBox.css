@@ -1,0 +1,193 @@
+.home{
+    display: flex;
+    box-sizing: border-box;
+    position: fixed;
+    right: 10px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    border: 1px solid #dfdfdf;
+}
+
+.botContainer{
+
+height: 600px;
+border-radius: 20px;
+position: relative;
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+width: 450px;
+}
+.botName{
+    color: white;
+    font-size: x-large;
+    font-family: "Copperplate", fantasy;
+    letter-spacing: 1.5px;
+}
+.top-close{
+   
+    background: #9FE2BF;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    width: 50px;
+    right: 30px;
+    font-size: 35px;
+    position: fixed;
+    text-align: center;
+    display: none;
+
+}
+
+.top{
+    height:45px;
+    width:100%;
+    background-color:#9FE2BF;
+    position: absolute;
+    top: 0;
+    border-radius: 20px 20px 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+ .icon{
+    height: 45px;
+    width: 45px;
+    margin-left: 20px;
+
+}
+
+.content{
+    height: 550px;
+    overflow-y: auto;
+    padding-inline: 10px;
+    margin: 100px 0 90px 0;
+}
+.content .chat{
+    display: flex;
+}
+.content .chat span{
+    padding: 12px 16px;
+    background: #9FE2BF;
+    border-radius: 10px 10px 0 10px;
+    width: fit-content;
+    max-width: 60%;
+    white-space: pre-wrap;
+}
+.content .incoming span{
+    background: #dfdfdf;
+    border-radius: 10px 10px 10px 0px;
+    width: fit-content;
+    max-width: 60%;
+}
+
+.content .incoming img{
+    height: 28px;
+    width: 28px; 
+    border-radius: 5px;
+    line-height: 30px;
+    margin: 0 10px 0 0;
+    align-self: flex-end;
+    background: #9FE2BF;
+}
+.content .outgoing{
+    justify-content: flex-end;
+    margin: 20px 0 ;
+}
+.b2{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+}
+.botName{
+    padding-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+    top: 12px;
+}
+
+
+.bottom {
+    bottom: 10px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    height: 51px;
+    width: 100%;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+}
+.inputs {
+    border: 0;
+    height: 50px;
+    width: 89%;
+    font-size: 17px;
+    padding-left: 20px;
+    display: block;
+    box-sizing: border-box;
+    outline: 0;
+    position: absolute;
+}
+.send{
+    border: 0;
+    height: 50px;
+    width: 11%;
+    display: flex;
+    left: 89%;
+    right: 0%;
+    position: absolute;
+    border-left: 1px solid #dfdfdf;
+    align-items: center;
+    background: white;
+}
+.send:hover{
+    cursor: pointer;
+}
+.sendImg{
+    height: 30px;
+    width: 30px;
+}
+.bottom-close{
+    height: 40px;
+    width: 40px;
+    border: 0;
+    background: #9FE2BF;
+    position: fixed;
+    border-radius: 5%;
+    color: white;
+    font-size:xx-large;
+    text-align: center;
+    bottom: 50px;
+    right: 28px;
+    border: 1px solid #727171;
+    display: block;
+    cursor: pointer;
+}
+
+@media(max-width: 550px){
+    .home{
+        bottom:0;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .botContainer{
+        bottom:0;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .bottom-close{
+        display: none;
+    }
+    .top-close{
+        display: block;
+    }
+}

@@ -1,0 +1,4 @@
+This chatbot is developed by using Q- learning algorithm. Backend and Frontend is taken care by Django and JavaScript respectively.
+This innovative chatbot is crafted meticulously to help you with the inquiries with an exceptional accuracy to ensure that every interaction yields prudent and tailored responses.
+The robust infrastructure by Django provides the foundation for seamless operation and reliability whereas the JavaScript offers a user- friendly interface that enhances the interactive experience.
+Whether you're seeking quick answers, personalized recommendations, or expert guidance, our chatbot stands ready to assist, delivering unparalleled convenience and satisfaction with every interaction. 
