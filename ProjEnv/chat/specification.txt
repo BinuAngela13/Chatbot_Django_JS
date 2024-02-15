@@ -2,3 +2,15 @@ This chatbot is developed by using Q- learning algorithm. Backend and Frontend i
 This innovative chatbot is crafted meticulously to help you with the inquiries with an exceptional accuracy to ensure that every interaction yields prudent and tailored responses.
 The robust infrastructure by Django provides the foundation for seamless operation and reliability whereas the JavaScript offers a user- friendly interface that enhances the interactive experience.
 Whether you're seeking quick answers, personalized recommendations, or expert guidance, our chatbot stands ready to assist, delivering unparalleled convenience and satisfaction with every interaction. 
+
+
+Steps to run :
+1. Run Django server.
+C:\React Course\DjangoJS\ProjEnv\chat\ python manage.py runserver
+
+2. Open Live server.
+Click (Fn + F1) -> open the live server -> Navigate through the following path (DjangoJS\ProjEnv\chat\htmlTemplate\botIcon.html)
+
+3. Then click on the bot, that is floating in the right-bottom corner, and you may start asking your queries. 
+
+4. If the bot is trained to answer the question, it'll offer you with the answer, Or else, it'll give a 'Sorry' message.
